@@ -8,7 +8,7 @@
  '(column-number-mode t)
  '(completion-cycle-threshold 5)
  '(custom-enabled-themes (quote (tomorrow-night adwaita)))
- '(custom-safe-themes (quote ("02a269b6b6b836523f249b0105799270f35cb88a7770ce9591e511cfe19e4024" "935e766f12c5f320c360340c8d9bc1726be9f8eb01ddeab312895487e50e5835" default)))
+ '(custom-safe-themes (quote ("eacf2247cccc2821fdfb4171e0be52c88833b3d0479f26ad5e37da973551010d" "02a269b6b6b836523f249b0105799270f35cb88a7770ce9591e511cfe19e4024" "935e766f12c5f320c360340c8d9bc1726be9f8eb01ddeab312895487e50e5835" default)))
  '(custom-theme-directory "~/.emacs.d/themes")
  '(desktop-save-mode t)
  '(electric-indent-mode t)

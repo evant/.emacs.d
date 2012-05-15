@@ -14,7 +14,7 @@
 
 (defun code ()
   (linum-mode 1)
-  (flyspell-prog-mode 1))
+  (flyspell-prog-mode))
 
 (add-hook 'text-mode-hook 'plain-text)
 (add-hook 'prog-mode 'code)
