@@ -63,7 +63,15 @@
 
    ;; show-paren-mode
    `(show-paren-match ((t (:background ,blue :foreground ,current-line))))
-   `(show-paren-mismatch ((t (:background ,orange :foreground ,current-line)))))
+   `(show-paren-mismatch ((t (:background ,orange :foreground ,current-line))))
+  ;; magit
+   `(magit-file-header ((t (:foreground ,purple))))
+   `(magit-hunk-header ((t (:foreground ,blue))))
+   `(magit-header ((t (:foreground ,aqua))))
+   `(magit-tag-label ((t (:background ,blue :foreground ,orange))))
+   `(magit-diff-add ((t (:foreground ,green))))
+   `(magit-diff-del ((t (:foreground ,red))))
+   `(magit-item-highlight ((t (:background ,current-line)))))
 
   (custom-theme-set-variables
    'tomorrow-night
