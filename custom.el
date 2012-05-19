@@ -12,6 +12,7 @@
  '(custom-theme-directory "~/.emacs.d/themes")
  '(desktop-save-mode t)
  '(electric-indent-mode t)
+ '(haskell-mode-hook (quote (turn-on-haskell-indent capitalized-words-mode code turn-on-haskell-doc-mode turn-on-haskell-decl-scan turn-on-font-lock)))
  '(ido-everywhere t)
  '(ido-mode (quote both) nil (ido))
  '(initial-buffer-choice "~/Documents")
