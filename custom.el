@@ -12,7 +12,8 @@
  '(custom-theme-directory "~/.emacs.d/themes")
  '(desktop-save-mode t)
  '(electric-indent-mode t)
- '(haskell-mode-hook (quote (turn-on-haskell-indent capitalized-words-mode code turn-on-haskell-doc-mode turn-on-haskell-decl-scan turn-on-font-lock)))
+ '(enable-local-variables t)
+ '(haskell-mode-hook (quote (turn-on-haskell-indent capitalized-words-mode code turn-on-haskell-doc-mode turn-on-haskell-decl-scan turn-on-font-lock)) t)
  '(ido-everywhere t)
  '(ido-mode (quote both) nil (ido))
  '(initial-buffer-choice "~/Documents")
@@ -20,6 +21,7 @@
  '(recentf-mode t)
  '(scroll-bar-mode nil)
  '(show-paren-mode t)
+ '(tool-bar-mode nil)
  '(void-text-area-pointer (quote arrow)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
