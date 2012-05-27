@@ -6,6 +6,17 @@
              '("marmalade" . "http://marmalade-repo.org/packages/"))
 (package-initialize)
 
+(defun add-to-path (path)
+  (setenv "PATH" (concat path ":" (getenv "PATH")))
+  (setq exec-path (cons path exec-path)))
+
+(defun add-to-home-path (path)
+  (add-to-path (concat (getenv "HOME") "/" path)))
+
+;; Set rbenv path\
+(add-to-home-path ".rbenv/shims")
+(add-to-home-path ".rbenv/bin")
+
 (global-set-key (kbd "M-n") 'new-frame)
 (global-set-key (kbd "C-x a r") 'align-regexp)
 
